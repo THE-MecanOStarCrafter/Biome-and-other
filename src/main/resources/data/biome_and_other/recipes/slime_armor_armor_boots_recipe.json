@@ -1,0 +1,26 @@
+{
+  "group": "biome_and_other",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "biome_and_other:slimeingot"
+    },
+    "2": {
+      "item": "biome_and_other:slimeingot"
+    },
+    "3": {
+      "item": "biome_and_other:slimeingot"
+    },
+    "5": {
+      "item": "biome_and_other:slimeingot"
+    }
+  },
+  "result": {
+    "item": "biome_and_other:slime_armor_armor_boots",
+    "count": 1
+  }
+}

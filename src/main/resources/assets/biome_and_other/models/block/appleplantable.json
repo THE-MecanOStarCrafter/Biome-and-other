@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "biome_and_other:blocks/apple",
+    "particle": "biome_and_other:blocks/apple"
+  }
+}

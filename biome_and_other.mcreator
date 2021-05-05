@@ -1,0 +1,492 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Greennetherwood",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_wood",
+      "path": "~/blocks"
+    },
+    {
+      "name": "Greennetherwoodleaves",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_nether_wart",
+      "path": "~/blocks"
+    },
+    {
+      "name": "Slimenylium",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slimenylium",
+      "path": "~/blocks"
+    },
+    {
+      "name": "Mapplesirop",
+      "type": "food",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mapplesirop",
+      "path": "~/food"
+    },
+    {
+      "name": "Slimeore",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slimeore",
+      "path": "~/blocks/ore"
+    },
+    {
+      "name": "Slimeingot",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slimeingot",
+      "path": "~/blocks/ore"
+    },
+    {
+      "name": "Slimeingotsmelt",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slimeingotsmelt",
+      "path": "~/craft"
+    },
+    {
+      "name": "Slimeingotblast",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slimeingotblast",
+      "path": "~/craft"
+    },
+    {
+      "name": "Slimenugget",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slimenugget",
+      "path": "~/blocks/ore"
+    },
+    {
+      "name": "Slimenuggetcraft",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slimenuggetcraft",
+      "path": "~/craft"
+    },
+    {
+      "name": "Slimeingotcraft",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "slimeingotcraft",
+      "path": "~/craft"
+    },
+    {
+      "name": "SlimefungusMobplayerCollidesWithPlant",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slimefungus_mobplayer_collides_with_plant",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Slimefungus",
+      "type": "plant",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slimefungus",
+      "path": "~/blocks/plant"
+    },
+    {
+      "name": "Slimefunguspoison",
+      "type": "particle",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slimefunguspoison",
+      "path": "~/particule"
+    },
+    {
+      "name": "SlimefungusClientDisplayRandomTick",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slimefungus_client_display_random_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Slimyforest",
+      "type": "biome",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slimyforest",
+      "path": "~/Biome"
+    },
+    {
+      "name": "Applesapling",
+      "type": "plant",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "applesapling",
+      "path": "~/blocks/plant"
+    },
+    {
+      "name": "Appleplantable",
+      "type": "plant",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "appleplantable",
+      "path": "~/blocks/plant"
+    },
+    {
+      "name": "Slime_ToolsPickaxe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_tools_pickaxe",
+      "path": "~/Item/tools"
+    },
+    {
+      "name": "Slime_ToolsAxe",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_tools_axe",
+      "path": "~/Item/tools"
+    },
+    {
+      "name": "Slime_ToolsSword",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_tools_sword",
+      "path": "~/Item/tools"
+    },
+    {
+      "name": "Slime_ToolsShovel",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_tools_shovel",
+      "path": "~/Item/tools"
+    },
+    {
+      "name": "Slime_ToolsHoe",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_tools_hoe",
+      "path": "~/Item/tools"
+    },
+    {
+      "name": "Slime_ToolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_tools_pickaxe_recipe",
+      "path": "~/craft"
+    },
+    {
+      "name": "Slime_ToolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_tools_axe_recipe",
+      "path": "~/craft"
+    },
+    {
+      "name": "Slime_ToolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_tools_sword_recipe",
+      "path": "~/craft"
+    },
+    {
+      "name": "Slime_ToolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_tools_shovel_recipe",
+      "path": "~/craft"
+    },
+    {
+      "name": "Slime_ToolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_tools_hoe_recipe",
+      "path": "~/craft"
+    },
+    {
+      "name": "Slime_armorArmor",
+      "type": "armor",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Item/armor"
+    },
+    {
+      "name": "Slime_armorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_armor_armor_helmet_recipe",
+      "path": "~/craft"
+    },
+    {
+      "name": "Slime_armorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_armor_armor_body_recipe",
+      "path": "~/craft"
+    },
+    {
+      "name": "Slime_armorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_armor_armor_leggings_recipe",
+      "path": "~/craft"
+    },
+    {
+      "name": "Slime_armorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_armor_armor_boots_recipe",
+      "path": "~/craft"
+    },
+    {
+      "name": "SlimearmorArmorBootsTickEvent",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slimearmor_armor_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.biome_and_other.slimenugget": "Slime nugget",
+      "block.biome_and_other.appleplantable": "Apple plantable",
+      "block.biome_and_other.slime_nether_wart": "Greennetherwoodleaves",
+      "block.biome_and_other.slimeore": "Slimeore",
+      "item.biome_and_other.slime_tools_hoe": "Slime_Tools Hoe",
+      "biome.biome_and_other.slimyforest": "Slimyforest",
+      "item.biome_and_other.slimeingot": "Slimeingot",
+      "block.elementamod_refait.slime_wood": "Greennetherwood",
+      "item.biome_and_other.slime_tools_pickaxe": "Slime_Tools Pickaxe",
+      "block.biome_and_other.slimenylium": "Slimenylium",
+      "item.biome_and_other.slime_tools_axe": "Slime_Tools Axe",
+      "item.biome_and_other.mapplesirop": "Mapple Sirop",
+      "item.biome_and_other.slime_armor_armor_boots": "Slime_armor Boots",
+      "item.biome_and_other.slime_armor_armor_helmet": "Slime_armor Helmet",
+      "block.elementamod_refait.slime_nether_wart": "Greennetherwoodleaves",
+      "biome.elementamod_refait.silmyforest": "Silmy Forest",
+      "item.biome_and_other.slime_tools_shovel": "Slime_Tools Shovel",
+      "block.biome_and_other.slimefungus": "Slimefungus",
+      "block.biome_and_other.applesapling": "Apple sapling",
+      "item.biome_and_other.slime_armor_armor_leggings": "Slime_armor Leggings",
+      "item.biome_and_other.slime_armor_armor_chestplate": "Slime_armor Chestplate",
+      "item.biome_and_other.slime_tools_sword": "Slime_Tools Sword",
+      "block.biome_and_other.slime_wood": "Greennetherwood",
+      "block.elementamod_refait.slimenylium": "Slimenylium"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "blocks",
+        "children": [
+          {
+            "name": "ore",
+            "children": []
+          },
+          {
+            "name": "plant",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Biome",
+        "children": []
+      },
+      {
+        "name": "Item",
+        "children": [
+          {
+            "name": "tools",
+            "children": []
+          },
+          {
+            "name": "armor",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "craft",
+        "children": []
+      },
+      {
+        "name": "particule",
+        "children": []
+      },
+      {
+        "name": "food",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "biome_and_other",
+    "modName": "Biome and other",
+    "version": "1.0.0",
+    "author": "MecanOStarCrafter",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.biomeandother",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100116710
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "biome_and_other:blocks/slime_fungus",
+    "particle": "biome_and_other:blocks/poison_particule"
+  }
+}

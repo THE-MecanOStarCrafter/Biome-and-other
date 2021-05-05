@@ -1,0 +1,27 @@
+{
+  "group": "biome_and_other",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "biome_and_other:slimeingot"
+    },
+    "1": {
+      "item": "biome_and_other:slimeingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "biome_and_other:slime_tools_hoe",
+    "count": 1
+  }
+}

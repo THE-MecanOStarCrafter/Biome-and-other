@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "biome_and_other:blocks/green_wart_block",
+    "up": "biome_and_other:blocks/green_wart_block",
+    "north": "biome_and_other:blocks/green_wart_block",
+    "east": "biome_and_other:blocks/green_wart_block",
+    "south": "biome_and_other:blocks/green_wart_block",
+    "west": "biome_and_other:blocks/green_wart_block",
+    "particle": "biome_and_other:blocks/green_wart_block"
+  }
+}

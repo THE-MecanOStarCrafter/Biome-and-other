@@ -1,0 +1,42 @@
+{
+  "group": "biome_and_other",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "biome_and_other:slimenugget"
+    },
+    "1": {
+      "item": "biome_and_other:slimenugget"
+    },
+    "2": {
+      "item": "biome_and_other:slimenugget"
+    },
+    "3": {
+      "item": "biome_and_other:slimenugget"
+    },
+    "4": {
+      "item": "biome_and_other:slimenugget"
+    },
+    "5": {
+      "item": "biome_and_other:slimenugget"
+    },
+    "6": {
+      "item": "biome_and_other:slimenugget"
+    },
+    "7": {
+      "item": "biome_and_other:slimenugget"
+    },
+    "8": {
+      "item": "biome_and_other:slimenugget"
+    }
+  },
+  "result": {
+    "item": "biome_and_other:slimeingot",
+    "count": 1
+  }
+}

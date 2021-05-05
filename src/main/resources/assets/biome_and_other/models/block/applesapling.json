@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "biome_and_other:blocks/apple_sapling",
+    "particle": "biome_and_other:blocks/apple_sapling"
+  }
+}

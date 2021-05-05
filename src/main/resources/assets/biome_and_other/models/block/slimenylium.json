@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "biome_and_other:blocks/netherrack",
+    "up": "biome_and_other:blocks/slime_nylium_top",
+    "north": "biome_and_other:blocks/slime_nylium",
+    "east": "biome_and_other:blocks/slime_nylium",
+    "south": "biome_and_other:blocks/slime_nylium",
+    "west": "biome_and_other:blocks/slime_nylium",
+    "particle": "biome_and_other:blocks/netherrack"
+  }
+}

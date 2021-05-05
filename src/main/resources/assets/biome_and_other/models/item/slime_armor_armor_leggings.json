@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "biome_and_other:items/slime_armor_leggings"
+  }
+}

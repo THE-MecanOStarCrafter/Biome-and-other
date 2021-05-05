@@ -1,0 +1,12 @@
+{
+  "group": "biome_and_other",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "biome_and_other:slimeore"
+  },
+  "result": {
+    "item": "biome_and_other:slimeingot"
+  }
+}

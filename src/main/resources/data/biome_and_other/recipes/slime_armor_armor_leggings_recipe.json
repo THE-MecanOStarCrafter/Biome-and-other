@@ -1,0 +1,36 @@
+{
+  "group": "biome_and_other",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "biome_and_other:slimeingot"
+    },
+    "1": {
+      "item": "biome_and_other:slimeingot"
+    },
+    "2": {
+      "item": "biome_and_other:slimeingot"
+    },
+    "3": {
+      "item": "biome_and_other:slimeingot"
+    },
+    "5": {
+      "item": "biome_and_other:slimeingot"
+    },
+    "6": {
+      "item": "biome_and_other:slimeingot"
+    },
+    "8": {
+      "item": "biome_and_other:slimeingot"
+    }
+  },
+  "result": {
+    "item": "biome_and_other:slime_armor_armor_leggings",
+    "count": 1
+  }
+}

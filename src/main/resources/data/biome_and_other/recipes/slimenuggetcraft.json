@@ -1,0 +1,13 @@
+{
+  "group": "biome_and_other",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "biome_and_other:slimeingot"
+    }
+  ],
+  "result": {
+    "item": "biome_and_other:slimenugget",
+    "count": 9
+  }
+}

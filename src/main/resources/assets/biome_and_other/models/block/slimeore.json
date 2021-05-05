@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "biome_and_other:blocks/nether_slime_ore",
+    "up": "biome_and_other:blocks/nether_slime_ore",
+    "north": "biome_and_other:blocks/nether_slime_ore",
+    "east": "biome_and_other:blocks/nether_slime_ore",
+    "south": "biome_and_other:blocks/nether_slime_ore",
+    "west": "biome_and_other:blocks/nether_slime_ore",
+    "particle": "biome_and_other:blocks/nether_slime_ore"
+  }
+}
