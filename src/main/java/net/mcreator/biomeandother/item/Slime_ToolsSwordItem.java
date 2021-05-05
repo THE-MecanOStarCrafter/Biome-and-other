@@ -32,7 +32,7 @@ public class Slime_ToolsSwordItem extends BiomeAndOtherModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 16f;
 			}
 
 			public int getHarvestLevel() {

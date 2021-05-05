@@ -3,16 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "slime_armor_head",
+    "textureHelmet": "slime_helmet",
     "enableBody": true,
-    "textureBody": "slime_armor_body",
+    "textureBody": "slime_chestplate",
     "enableLeggings": true,
-    "textureLeggings": "slime_armor_leggings",
+    "textureLeggings": "slime_leggings",
     "enableBoots": true,
-    "textureBoots": "slime_armor_boots",
-    "onBootsTick": {
-      "name": "SlimearmorArmorBootsTickEvent"
-    },
+    "textureBoots": "slime_boots",
     "creativeTab": {
       "value": "COMBAT"
     },

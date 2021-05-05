@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "slime_tools_shovel",
+    "texture": "slime_shovel",
     "customModelName": "Normal",
     "name": "Slime_Tools Shovel",
     "specialInfo": [],

@@ -1,0 +1,12 @@
+{
+  "group": "biome_and_other",
+  "type": "minecraft:campfire_cooking",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "minecraft:porkchop"
+  },
+  "result": {
+    "item": "biome_and_other:bacon"
+  }
+}

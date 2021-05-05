@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "biome_and_other:items/slime_tools_axe"
+    "layer0": "biome_and_other:items/slime_axe"
   }
 }

@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "slime_tools_hoe",
+    "texture": "slime_hoe",
     "customModelName": "Normal",
     "name": "Slime_Tools Hoe",
     "specialInfo": [],

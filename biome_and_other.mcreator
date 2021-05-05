@@ -69,7 +69,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "slimeingotsmelt",
-      "path": "~/craft"
+      "path": "~/craft/slime"
     },
     {
       "name": "Slimeingotblast",
@@ -79,7 +79,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "slimeingotblast",
-      "path": "~/craft"
+      "path": "~/craft/slime"
     },
     {
       "name": "Slimenugget",
@@ -99,7 +99,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "slimenuggetcraft",
-      "path": "~/craft"
+      "path": "~/craft/slime"
     },
     {
       "name": "Slimeingotcraft",
@@ -109,7 +109,7 @@
       "locked_code": true,
       "ids": {},
       "registry_name": "slimeingotcraft",
-      "path": "~/craft"
+      "path": "~/craft/slime"
     },
     {
       "name": "SlimefungusMobplayerCollidesWithPlant",
@@ -265,7 +265,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "slime_tools_pickaxe_recipe",
-      "path": "~/craft"
+      "path": "~/craft/slime"
     },
     {
       "name": "Slime_ToolsAxeRecipe",
@@ -275,7 +275,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "slime_tools_axe_recipe",
-      "path": "~/craft"
+      "path": "~/craft/slime"
     },
     {
       "name": "Slime_ToolsSwordRecipe",
@@ -285,7 +285,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "slime_tools_sword_recipe",
-      "path": "~/craft"
+      "path": "~/craft/slime"
     },
     {
       "name": "Slime_ToolsShovelRecipe",
@@ -295,7 +295,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "slime_tools_shovel_recipe",
-      "path": "~/craft"
+      "path": "~/craft/slime"
     },
     {
       "name": "Slime_ToolsHoeRecipe",
@@ -305,7 +305,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "slime_tools_hoe_recipe",
-      "path": "~/craft"
+      "path": "~/craft/slime"
     },
     {
       "name": "Slime_armorArmor",
@@ -331,7 +331,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "slime_armor_armor_helmet_recipe",
-      "path": "~/craft"
+      "path": "~/craft/slime"
     },
     {
       "name": "Slime_armorArmorBodyRecipe",
@@ -341,7 +341,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "slime_armor_armor_body_recipe",
-      "path": "~/craft"
+      "path": "~/craft/slime"
     },
     {
       "name": "Slime_armorArmorLeggingsRecipe",
@@ -351,7 +351,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "slime_armor_armor_leggings_recipe",
-      "path": "~/craft"
+      "path": "~/craft/slime"
     },
     {
       "name": "Slime_armorArmorBootsRecipe",
@@ -361,36 +361,37 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "slime_armor_armor_boots_recipe",
-      "path": "~/craft"
+      "path": "~/craft/slime"
     },
     {
-      "name": "SlimearmorArmorBootsTickEvent",
-      "type": "procedure",
-      "sortid": 34,
+      "name": "Meetknife",
+      "type": "tool",
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "slimearmor_armor_boots_tick_event",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
+      "registry_name": "meetknife",
+      "path": "~/Item/tools"
+    },
+    {
+      "name": "Bacon",
+      "type": "food",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bacon",
+      "path": "~/food"
+    },
+    {
+      "name": "Baconrecipece",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baconrecipece",
+      "path": "~/craft"
     }
   ],
   "variable_elements": [],
@@ -410,8 +411,10 @@
       "item.biome_and_other.slime_tools_axe": "Slime_Tools Axe",
       "item.biome_and_other.mapplesirop": "Mapple Sirop",
       "item.biome_and_other.slime_armor_armor_boots": "Slime_armor Boots",
+      "item.biome_and_other.meetknife": "Meet Cutter",
       "item.biome_and_other.slime_armor_armor_helmet": "Slime_armor Helmet",
       "block.elementamod_refait.slime_nether_wart": "Greennetherwoodleaves",
+      "item.biome_and_other.bacon": "Bacon",
       "biome.elementamod_refait.silmyforest": "Silmy Forest",
       "item.biome_and_other.slime_tools_shovel": "Slime_Tools Shovel",
       "block.biome_and_other.slimefungus": "Slimefungus",
@@ -458,7 +461,12 @@
       },
       {
         "name": "craft",
-        "children": []
+        "children": [
+          {
+            "name": "slime",
+            "children": []
+          }
+        ]
       },
       {
         "name": "particule",
@@ -466,6 +474,10 @@
       },
       {
         "name": "food",
+        "children": []
+      },
+      {
+        "name": "Command",
         "children": []
       }
     ]
