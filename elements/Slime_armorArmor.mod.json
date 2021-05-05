@@ -10,6 +10,9 @@
     "textureLeggings": "slime_armor_leggings",
     "enableBoots": true,
     "textureBoots": "slime_armor_boots",
+    "onBootsTick": {
+      "name": "SlimearmorArmorBootsTickEvent"
+    },
     "creativeTab": {
       "value": "COMBAT"
     },

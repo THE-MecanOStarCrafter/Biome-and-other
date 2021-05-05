@@ -24,6 +24,6 @@ public class SlimefungusMobplayerCollidesWithPlantProcedure extends BiomeAndOthe
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.POISON, (int) 2, (int) 1, (false), (false)));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.POISON, (int) 10, (int) 1, (false), (false)));
 	}
 }

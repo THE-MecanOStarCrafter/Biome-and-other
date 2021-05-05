@@ -6,6 +6,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
@@ -14,9 +15,14 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.biomeandother.procedures.SlimearmorArmorBootsTickEventProcedure;
 import net.mcreator.biomeandother.BiomeAndOtherModElements;
+
+import java.util.Map;
+import java.util.HashMap;
 
 @BiomeAndOtherModElements.ModElement.Tag
 public class Slime_armorArmorItem extends BiomeAndOtherModElements.ModElement {
@@ -98,6 +104,21 @@ public class Slime_armorArmorItem extends BiomeAndOtherModElements.ModElement {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "biome_and_other:textures/models/armor/slime_armor_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+			}
+
+			@Override
+			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("x", x);
+					$_dependencies.put("y", y);
+					$_dependencies.put("z", z);
+					$_dependencies.put("world", world);
+					SlimearmorArmorBootsTickEventProcedure.executeProcedure($_dependencies);
+				}
 			}
 		}.setRegistryName("slime_armor_armor_boots"));
 	}
